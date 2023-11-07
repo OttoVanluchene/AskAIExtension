@@ -1,0 +1,20 @@
+body {
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#model-selector,
+#prompt-input,
+#result-output {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#run-button,
+#copy-button {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}

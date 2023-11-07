@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "OpenAI Model Runner",
+  "version": "1.0",
+  "description": "Run OpenAI models on selected text from a webpage.",
+  "permissions": ["activeTab", "storage", "clipboardWrite", "contextMenus", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "commands": {
+    "run-model": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Run the selected OpenAI model"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

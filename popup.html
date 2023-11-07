@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OpenAI Model Runner</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script defer src="popup.js"></script>
+  </head>
+  <body>
+    <div id="popup-content">
+      <select id="model-selector">
+        <option value="text-davinci-003">gpt-4</option>
+      </select>
+      <textarea id="prompt-input" placeholder="Enter your prompt here..."></textarea>
+      <button id="run-button">Run</button>
+      <textarea
+        id="result-output"
+        placeholder="Results will appear here..."
+        readonly></textarea>
+      <button id="copy-button">Copy Results</button>
+    </div>
+  </body>
+</html>
