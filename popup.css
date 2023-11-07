@@ -12,6 +12,14 @@ body {
   margin-bottom: 10px;
 }
 
+#result-output {
+  height: 400px;
+}
+
+#loading-spinner {
+  height: 25px;
+}
+
 #run-button,
 #copy-button {
   width: 100%;
